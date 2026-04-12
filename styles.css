@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-header-footer: #1f2937;
+    --first-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --button-cta: #3882F6;
+}
+
+
 .container-1 {
     max-width: 900px;
     margin: auto;
@@ -18,12 +26,12 @@ body {
 
 header {
 
-    background-color: #1f2937;
-    
+    background-color: var(--color-header-footer);
+
 }
 
 .logo {
-    color: #F9FaF8;
+    color: var(--first-text);
     font-size: 24px;
     text-transform: uppercase;
     padding: 5px 0 0 5px;
@@ -43,6 +51,53 @@ li {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: var(--secondary-text);
     font-size: 18px;
+}
+
+.container-2 {
+    max-width: 900px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hero {
+    text-align: left;
+
+    background-color: var(--color-header-footer);
+    color: var(--first-text);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.placeholder-one {
+    width: 270px;
+    height: 160px;
+    background-color: gray;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: var(--button-cta);
+    color: var(--secondary-text);
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: var(--button-cta);
+    background-color: var(--secondary-text);
 }
