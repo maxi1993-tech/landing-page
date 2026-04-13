@@ -104,3 +104,43 @@ button:hover {
     color: var(--button-cta);
     background-color: var(--secondary-text);
 }
+
+.cards {
+    color: var(--color-header-footer);
+    text-align: center;
+}
+
+.container-3 {
+    max-width: 1000px;
+    height: 480px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.title-2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cards-el {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    border: 4px solid var(--button-cta);
+    border-radius: 20px;
+    
+}
+
+.program li {
+    padding-top: 20px;
+}
+
+.container-4 {
+    background-color: var(--secondary-text);
+}
