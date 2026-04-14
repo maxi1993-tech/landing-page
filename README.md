@@ -8,7 +8,7 @@ This project was built from scratch by following a provided design mockup. The g
 
 ## LIVE demo 
 
-[View on GitHub Pages](#landing-page)
+[View on GitHub Pages](https://maxi1993-tech.github.io/landing-page/)
 
 ## Built With 
 
