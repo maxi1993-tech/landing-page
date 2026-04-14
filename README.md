@@ -24,3 +24,9 @@ This project was built from scratch by following a provided design mockup. The g
 - Applying CSS custom properties (variables)
 - Working with containers to control width while full-width backgrounds
 - Commiting regularly with Git
+
+## Acknowledgments
+
+- [The Odin Project](https://www.theodinproject.com/) for the curriculum
+- [Claude](https://claude.ai/) (Anthropic) for guidance and hints during development
+- Tim Berners-Lee quote provided with AI assistance
