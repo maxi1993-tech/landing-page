@@ -212,4 +212,11 @@ h3 + p {
 
 footer {
     background-color: #1f2937;
+    color: var(--secondary-text);
+    text-align: center;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
